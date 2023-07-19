@@ -10,6 +10,11 @@ h1{
     font-weight: 800;
     font-size: 3rem;
 }
+p{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 .btn-pri , .btn-sec{
     background-color: rgb(255, 66, 165) ;
     color: white;
@@ -27,7 +32,7 @@ h1{
 
 /* header style start */
 .nav-container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -67,12 +72,23 @@ h1{
 
 
 /* main style start */
+.banner-container-bg{
+    background-image: url(images/bbg.png);
+    object-fit: cover;
+}
 .banner-container{
-    width: 80%;
+    width: 85%;
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    
+}
+.banner-txt{
+    width: 50%;
+}
+.banner-txt p{
+    margin-top: 10px;
 }
 .banner-img {
     width: 50%;
@@ -80,6 +96,41 @@ h1{
 .banner-img img {
     width: 100%;
 }
+
+    /* game option style */
+.game-option{
+    background-color: rgba(255, 66, 165, 0.07);
+    height: 250px;
+    display: grid;
+    align-items: center;
+}
+.game-option-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.game-option-rowa , .game-option-rowb{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    
+}
+.game-option-txt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.game-option-txt:hover{
+   border: 1.5px solid rgb(255, 66, 165);
+   color: rgb(255, 66, 165);
+}
+.game-option-txt img{
+ width: 20%;
+}
+
+
 /* main style end */
 
 /* footer style start */
