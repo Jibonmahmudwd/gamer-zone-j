@@ -72,6 +72,36 @@ a:hover{
     border-radius: 8px;
 }
 
+/* header style end */
+
+
+/* main style start */
+.banner-container-bg{
+    background-image: url(images/bbg.png);
+    object-fit: cover;
+}
+.banner-container{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-txt{
+    width: 50%;
+}
+.banner-txt p{
+    margin-top: 10px;
+}
+.banner-img {
+    width: 50%;
+}
+.banner-img img {
+    width: 100%;
+}
+
+
 .banner2-container-bg{
     background-color: rgba(255, 66, 165, 0.04) ;
     padding-bottom: 40px;
@@ -104,41 +134,72 @@ a:hover{
     margin-bottom: 10px;
     margin-right: 0;
 }
-/* header style end */
-
-
-/* main style start */
-.banner-container-bg{
-    background-image: url(images/bbg.png);
-    object-fit: cover;
-}
-.banner-container{
+    /*  card section style */
+.card{
     width: 85%;
-    margin: 20px auto;
+    margin: 0 auto;
+}
+.card-txt{
+    text-align: center;
+    margin: 40px auto 30px; 
+}
+#c-h-t{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-img{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    gap: 20px;
+    margin-bottom: 30px;
 }
-.banner-txt{
-    width: 50%;
-}
-.banner-txt p{
-    margin-top: 10px;
-}
-.banner-img {
-    width: 50%;
-}
-.banner-img img {
+.card-img img{
     width: 100%;
 }
+ /* banner position style */
+.banner-p-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 
+}
+.banner-p-txt{
+    width: 50%;
+    text-align: right;
+    position: relative ;
+    right: 150px;
+}
+#banner-p-t-h2{
+    background: linear-gradient(120deg, #F948B2 10%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-p-img{
+    width: 50%;
+}
+.banner-p-img img{
+    width: 100%;
+}
+#b-p-img2{
+    width: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: -145px;
+    right: 80px;
+}
     /* game option style */
 .game-option{
     background-color: rgba(255, 66, 165, 0.07);
     height: 250px;
     display: grid;
     align-items: center;
+    margin-top: -100px;
 }
 .game-option-container{
     width: 85%;
