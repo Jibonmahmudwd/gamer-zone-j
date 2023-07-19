@@ -71,6 +71,39 @@ a:hover{
     background-color: rgba(11, 2, 35, 0.3);
     border-radius: 8px;
 }
+
+.banner2-container-bg{
+    background-color: rgba(255, 66, 165, 0.04) ;
+    padding-bottom: 40px;
+}
+.banner2-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner2-container-img{
+    width: 50%;
+}
+.banner2-container-img img{
+    width: 80%;
+}
+.banner2-container-txt{
+    width: 40%;
+    text-align: right;
+}
+.banner2-container-txt h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+.banner2-btn{
+    margin-bottom: 10px;
+    margin-right: 0;
+}
 /* header style end */
 
 
