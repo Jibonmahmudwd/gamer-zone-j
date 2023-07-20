@@ -454,11 +454,11 @@ footer{
         gap: 40px
     }
     .footer-policy{
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         margin: 0 auto;
-        grid-template-columns: repeat(2,1fr);
         justify-content: center;
-        gap: 10px;
+        gap: 40px;
         text-align: center;
     }
     .footer-copyright{
