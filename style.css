@@ -226,19 +226,20 @@ a:hover , .btn-pri:hover , .btn-sec:hover{
     /* game option style */
 .game-option{
     background-color: rgba(255, 66, 165, 0.07);
-    height: 250px;
+    height: auto;
     display: grid;
     align-items: center;
     margin-top: -100px;
+    padding: 40px 5px;
 }
 .game-option-container{
     width: 85%;
     margin: 0 auto;
 }
 .game-option-rowa{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 25px;   
 }
 .game-option-txt{
@@ -269,7 +270,7 @@ footer{
 .footer-container{
     width: 70%;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .footer-logo{
     display: flex;
@@ -280,8 +281,8 @@ footer{
     color: white;
 }
 .footer-link{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .footer-link li{
@@ -314,7 +315,6 @@ footer{
     font-weight: 500px;
     gap: 50px;
 }
-
 
 /* footer style end */
 
@@ -365,8 +365,8 @@ footer{
         gap: 20px;
     }
     #card-img-play{
-        top: 200px;
-        left: 170px;      
+        top: 190px;
+        left: 140px;      
      }
 
 
@@ -396,6 +396,7 @@ footer{
         margin: 0 auto;
     }
     .footer-link{
+        display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
     }
@@ -414,6 +415,11 @@ footer{
         justify-content: center;
         gap: 10px;
     }
+    .footer-copyright{
+        max-width: 50vw;
+        margin: 0 auto;
+        margin-top: 30px;
+    }    
 }
 /* media query for mobile view end */
 /* media query for tablet view end */
@@ -433,8 +439,8 @@ footer{
         gap: 30px;
     }
     #card-img-play{
-        top: 150px;
-        left: 120px;      
+        top: 200px;
+        left: 160px;      
      }
      .footer-link{
         grid-template-columns: repeat(3,1fr);
@@ -453,6 +459,12 @@ footer{
         grid-template-columns: repeat(2,1fr);
         justify-content: center;
         gap: 10px;
+        text-align: center;
+    }
+    .footer-copyright{
+        max-width: 50vw;
+        margin: 0 auto;
+        margin-top: 30px;
         text-align: center;
     }
 }
